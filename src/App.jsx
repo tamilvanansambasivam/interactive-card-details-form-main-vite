@@ -3,7 +3,7 @@ import bgMobile from "../images/bg-main-mobile.png";
 import bgDesktop from "../images/bg-main-desktop.png";
 import logo from "../images/card-logo.svg";
 import tick from "../images/icon-complete.svg";
-// import { format } from "date-fns";
+
 
 export default function App() {
   const [confirmed, setConfirmed] = useState(false);
@@ -13,7 +13,7 @@ export default function App() {
   const [cardNumber, setCardNumber] = useState("");
   const [cardNumberError, setCardNumberError] = useState("");
 
-  // const [date, setDate] = useState("01/23");
+ 
 
   const [monthValue, setMonthValue] = useState("");
   const [monthError, setMonthError] = useState("");
