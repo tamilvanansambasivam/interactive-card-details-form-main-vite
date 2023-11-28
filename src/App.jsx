@@ -143,14 +143,7 @@ export default function App() {
       setConfirmed(false);
     }
 
-    // Clear input fields only if confirmed is true
-    // if (confirmed) {
-    //   setName("");
-    //   setCardNumber("");
-    //   setMonthValue("");
-    //   setYearValue("");
-    //   setCvc("");
-    // }
+
   };
 
   return (
